@@ -1,125 +1,97 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <title>HTML Sandbox</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-    <meta name="Creator of the page" content="Dillon Thompson" />
-  </head>
-  <body>
-    <h1>This is my work for Web Tech</h1>
-    <p1>This is the body paragraph</p1>
-  </body>
-</html>
+<header>
+  <title>Web Foundations: Building Meaningful Pages</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+  <meta name="Creator of the page" content="Dillon Thompson" />
+</header>
 
-<body>
-  <main>
-    <header>
-      <h1>Prototype HTML Document Example</h1>
-    </header>
-    </section id="content">
-      <h2>Properly Marking up an HTML Document</h2>
+<nav>
+  <ul>
+    <li><a href="https://ualr.edu" target="_blank">Home</a></li>
+    <li><a href="img/cat.jpg">HTML Basics</a></li>
+    <li><a href="">Accessibility</a></li>
+    <li><a href="">Resources</a></li>
+    <li><a href="">Contact</a></li>
+  </ul>
+</nav> 
 
-  <!--Hyperlinks -->
-      <nav>
-        <ul>
-          <li><a href="https://ualr.edu" target="_blank">Absolute Links</a></li>
-          <li><a href="img/cat.jpg">Relative Link</a></li>
-          <li><a href="">Anchor Link</a></li>
-          <li><a href="mailto:email@gmail.com">Email Link</a></li>
-        </ul>
-      </nav>
-
-<img src="https://ualr.edu/communications/wp-content/uploads/sites/216/2024/09/ua-little-rock-logo-yoast.png" alt="UA Little Rock logo, showing all letters with a ribbon through them."/>
-
-  <form action="processing-script.php" method="get">
-    <fieldset>
-      <legend>Personal Info</legend>
-      <label>Full Name: </label><input type="text" id="fname" name="fname" />
-      <label for="address">Address:</label><textarea id="address" name="address"></textarea>
-      <label for="color">Favorite Color:</label>
-        <select id="color" name ="color">
-
-          <option>Red</option>
-          <option>Green</option>
-          <option>Blue</option>
-          <option selected>----</option>
-        </select>
-      <textarea id="address"> name="address"</textarea>
-      </fieldset>  
-  </form>
-
-
-<table border="1">
-  <caption>Grocery List</caption>
-  <tr><th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">Cost</th>
-  <tr><td>Mac n Cheese</td><td>4</td><td>$5</td>
-  <tr><td>Mac n Cheese</td><td>4</td><td>$5</td>
-  <tr><td>Mac n Cheese</td><td>4</td><td>$5</td>
-  <tr><td>Mac n Cheese</td><td>4</td><td>$5</td>
-    
-  
-  
-</table>
-
-<p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien.</p> 
-
-<p>This is another paragraph Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p> 
-
-<!-- ** Subsection I of Primary Content ** -->
-
-<!-- <p>This is a Subsection of the Primary Content</p> --> 
-
-<p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien.</p>
-
-<p>This is another paragraph Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis. </p>
-
-** This is a list of instructions **
-
+ 
+<h1>Understanding Semantic HTML</h1> 
+<p1>The web is more than a collection of visually formatted documents. HTML provides meaning and structure to content so that browsers, search engines, assistive technologies, and people can better understand how information is organized.</p1> 
+<p2>HTML stands for HyperText Markup Language. It describes the structure and meaning of content rather than how that content should look. CSS is generally responsible for presentation, while JavaScript can add behavior and interactivity.</p2>
+ 
+<h2>Why Semantics Matter</h2>
+<p3>Semantic HTML uses elements according to the meaning of the content they contain. Choosing an element because of what it represents, rather than because of its default appearance, produces documents that are easier to understand and maintain.</p3>
+<p4>Semantic structure is especially important for accessibility. Screen readers and other assistive technologies can use the structure of a document to help users navigate between major regions, headings, lists, and other types of content.</p4>
+<p5>Developers should not choose HTML elements simply because they make text bold, italic, large, or small. The meaning of the content should determine the markup. Visual appearance can be controlled separately with CSS.</p5>
+ 
+The Web Accessibility Initiative, commonly abbreviated WAI, develops standards and supporting materials that help make the web more accessible to people with disabilities.
+ 
+<h3>Common Principles for Well-Structured Pages:</h3>
 <ol>
-  <li>Instruction 1</li>
-  <li>Instruction 2</li>
-  <li>Instruction 3</li>
+  <li>Use headings to create a logical outline of the document.</li>
+  <li>Organize related content into meaningful sections.</li>
+  <li>Use lists when a collection of items has a clear relationship.</li>
+  <li>Provide useful text alternatives for meaningful images.</li>
+  <li>Use links that clearly describe their destination or purpose.</li>
+  <li>Keep document structure separate from visual presentation.</li>
+  <li>Steps for Reviewing an HTML Document</li>
+  <li>Identify the major regions of the page.</li>
+  <li>Check that headings create a logical hierarchy.</li>
+  <li>Review lists, quotations, abbreviations, and other specialized content.</li>
+  <li>Confirm that images have appropriate alternative text.</li>
+  <li>Inspect the document for unnecessary or incorrectly used elements.</li>
+  <li>Run the completed page through an HTML validator.</li>
+</ol> 
+<h4>Useful HTML Terms</h4>
+<ol>
+  <li>Element: A structural or semantic component of an HTML document. Examples include headings, paragraphs, links, and lists.</li>
+  <li>Attribute: Additional information placed on an HTML element. Attributes can describe characteristics such as a link destination, an image source, or the language of a document.</li>
+  <li>Semantic HTML: The practice of choosing HTML elements based on the meaning and purpose of the content they contain.</li>
+  <li>Validation: The process of checking markup against the rules of the HTML specification to identify errors and invalid structures.</li>
+  <li>Progressive Enhancement: An approach to web development that begins with meaningful, accessible content and functionality before adding more advanced presentation or behavior.</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+
 </ol>
-<!-- ** This is a list of items with no particular order ** -->
-<ol>
-  <p>Video</p>
-  <ol start ="4">
-<ul>
-  <li>Pony</li>
-  <li>Turtle</li>
-  <li>Dog</li>
-  <li>Cat</li>
-</ul>
-
-<dl>
-  <dt>Term</dt>
-** This is an example of how we should mark up a term and its description(s) **
-
-Term
-
-Description 1
-
-Description 2 
-
-<!--** Subsection of Primary Content Subsection I**-->
-
-<!-- This is a Subsection of Subsection I-->
-
-<!--** Pullquote | Blockquote **-->
-<blockquote>
-This is a Quote. Content precedes design. Design in the absence of content is not design, it's decoration. <cite>From Designing with Web Standards by Jeffery Zeldman.</cite>
-<blockquote>
-  
-** Subsection II **
-
-<h3>This is a Subsection of the Primary Content</h3>
-
-<p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. </p>
-
-<p>This is another paragraph Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
-
-This is the footer. You should always include any copyright information in this section as well as a way to contact the owner of the page
-  
-  <p id="footer">&copy; 2026 Dillon Thompson | <a href=""Back to Top</a></p></body>
+ 
+ 
+<p6>When referring to code in technical writing, it is important to distinguish the code itself from the surrounding explanation.</p6>
+ 
+<h5>A Perspective on the Web</h5>
+ 
+<p7>Tim Berners-Lee has emphasized that the value of the web comes from its ability to connect people and information.</p7>
+<p8>“The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.”</p8>
+<p9>This statement appears in materials from the World Wide Web Consortium, often referred to as the W3C, and reflects an important principle behind accessible web development.</p9> 
+ 
+<h6>Semantic Structure in Practice</h6>
+<p10>A well-structured page does not need to be visually complicated. Even a simple article can contain several meaningful regions. The page might begin with introductory information and navigation, followed by its primary content. Within that content, related topics can be grouped together while still belonging to a larger article.</p10>
+ 
+<p11>The distinction between structure and appearance is important. A heading is not simply large text. A quotation is not simply indented text. Important content is not simply bold text. Each has meaning that can be represented directly in HTML.</p11>
+<li>Image: Embed an image of your choice.</li>
+<p12>The image shows a laptop displaying a webpage diagram divided into labeled regions for the page header, navigation, main content, article sections, and footer.<p/12></p>
+ 
+<li>Caption: Semantic HTML gives different regions of a webpage meaningful roles rather than treating the entire page as one collection of generic containers.</li>
+ 
+<h7>Recommended Resources</h7> 
+<li><a href="">MDN Web Docs</a></li>
+<li><a href="">HTML Living Standard</a></li>
+<li><a href="">Web Accessibility Initiative</a></li>
+<li><a href="">W3C Markup Validation Service</a></li>
+ 
+<h8>About This Site:</h8>
+ 
+<p13>Web Foundations is a learning resource for students studying modern front-end development. The material emphasizes standards-based development, semantic HTML, accessibility, and the use of the native web platform.</p13>
+ 
+<p14>Content prepared for Web Foundations</p14>
