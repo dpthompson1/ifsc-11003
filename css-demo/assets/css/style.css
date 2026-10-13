@@ -192,7 +192,6 @@ table{
 }
 /*table caption{*/
 
-}
 tr:nth-child(even){
   background-color: rgba(0,0,0,.5);
 }
