@@ -197,9 +197,8 @@ figure{
   list-style-type:square;
 }
 
-#practice dl{
-  
-}
+/* #practice dl{} */
+
 #practice dt {
   font-weight:bold;
   /* margin-top:20px; */
@@ -222,9 +221,7 @@ dd + dt{
   text-shadow: 1px 1px #000000;
 }
 
-#practice cite{
-
-}
+/* #practice cite{} */
 
 table{
   width:100%;
