@@ -33,19 +33,28 @@
       max-width: 80vw;
       margin: 20px auto;
       
-      grid-template-columns: 1fr 3fr;
-
-      #content {
-      
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-areas:
+      "header header header header"
+      "content content content sidebar"
+      "blog blog blog sidebar"
+      "footer footer footer footer"
     }
-      
-      header.primary {
-        grid-column: 1 / span 4;
-        grid-row-start: 1;
-      }
 
-
+    header.primary {
+      grid-area: header;
     }
+    #content {
+      grid-area: content;
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    
+    }
+    #blog {
+      grid-area: blog;
+    }
+  
 
   </style>
 
